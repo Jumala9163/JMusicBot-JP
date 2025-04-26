@@ -5,14 +5,14 @@
     <groupId>com.jagrosh</groupId>
     <artifactId>JMusicBot</artifactId>
     <!-- バージョン装飾子参考の参考に: https://kengotoda.gitbooks.io/what-is-maven/deploy/snapshot-and-stable.html -->
-    <version>0.10.1</version>
+    <version>0.10.1-2</version>
     <packaging>jar</packaging>
 
     <repositories>
         <repository>
-            <id>arbjergDev-releases</id>
+            <id>arbjergDev-snapshots</id>
             <name>Lavalink Repository</name>
-            <url>https://maven.lavalink.dev/releases</url>
+            <url>https://maven.lavalink.dev/snapshots</url>
         </repository>
         <repository>
             <id>jitpack.io</id>
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>dev.lavalink.youtube</groupId>
             <artifactId>v2</artifactId>
-            <version>1.12.0</version>
+            <version>8db4e5dc023bedcc2a39a219e22e0637105d05d5-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.github.Cosgy-Dev</groupId>
